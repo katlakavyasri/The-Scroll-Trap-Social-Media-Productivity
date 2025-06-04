@@ -92,4 +92,59 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 ---
 
 ## 📁 Project Structure
+/The-Scroll-Trap
+│
+├── data/
+│ └── social_media_vs_productivity.csv
+├── images/
+│ ├── page1_overview.png
+│ ├── page2_key_findings.png
+│ └── page3_advanced_insights.png
+├── Social_Media_Productivity_Report_Final.pbix
+├── README.md
+└── LICENSE
 
+---
+
+## 📈 Dashboard Screenshots
+
+### Page 1: Executive Dashboard
+![Dashboard Overview](images/page1_overview.png)
+
+### Page 2: Key Findings
+![Key Findings](images/page2_key_findings.png)
+
+### Page 3: Advanced Visuals
+![AI Visuals](images/page3_advanced_insights.png)
+
+---
+
+## 🔗 Live Demo
+
+- 📹 YouTube walkthrough: *(Link if available)*
+- 📊 Power BI service (if hosted): *(Link if public)*
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).  
+Feel free to use, modify, or share with proper credit.
+
+---
+
+## 🙏 Acknowledgments
+
+- Simulated data inspired by Kaggle's behavioral datasets.
+- Power BI visuals designed using best practices from Microsoft and the PowerBI community.
+- Thanks to wellness researchers and digital behavior psychologists whose insights guided the storytelling.
+
+---
+
+## 💬 Contact
+
+For collaborations or questions, reach out:
+
+- **Kavya Sri Katla**
+- [LinkedIn](https://www.linkedin.com/in/katlakavyasri)
+- [GitHub Portfolio](https://github.com/katlakavyasri)
