@@ -129,7 +129,7 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 │   ├── page1_overview.png
 │   ├── page2_key_findings.png
 │   ├── page3_advanced_insights.png
-│   └── dashboard_demo.gif
+│
 │
 ├── Social_Media_Productivity_Report_Final.pbix
 ├── README.md
@@ -148,8 +148,7 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 ### 📊 Advanced Visuals
 ![AI Visuals](images/page3_advanced_insights.png)
 
-### 🎥 Dashboard Interaction (GIF Demo)
-![Dashboard Interaction](images/dashboard_demo.gif)
+
 
 ---
 
