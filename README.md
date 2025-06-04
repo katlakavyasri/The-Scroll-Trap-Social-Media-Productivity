@@ -1,8 +1,9 @@
 # 📘 The Scroll Trap: Exploring the Interplay Between Social Media, Productivity, and Well-being (Power BI Project)
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)](https://powerbi.microsoft.com/)
+[![Status](https://img.shields.io/badge/Project-Completed-brightgreen)](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity)
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+
 
 ---
 
