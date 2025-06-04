@@ -172,5 +172,5 @@ Feel free to use, modify, or share with proper credit.
 
 For collaborations or questions, reach out:
 
-[![Connect on LinkedIn](https://img.shields.io/badge/Kavya%20Sri%20Katla-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/katlakavyasri)  
+[![Connect on LinkedIn](https://img.shields.io/badge/Kavya%20Sri%20Katla-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kavya-sri-katla/)  
 [GitHub Portfolio](https://github.com/katlakavyasri)
