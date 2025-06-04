@@ -110,15 +110,15 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 - **Wider Demographics**: Add mental health, income level, family environment for richer segmentation.
 
 ---
-
 ## 🧪 Testing & Reproducibility
 
 1. Download this GitHub repository or `.zip` it.
 2. Open `Social_Media_Productivity_Report_Final.pbix` in Power BI Desktop.
 3. Explore the dashboards interactively using slicers, filters, and visual-level drilldowns.
----
+
 ## 📁 Project Structure
 
+```plaintext
 /The-Scroll-Trap
 │
 ├── data/
@@ -133,7 +133,7 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 ├── Social_Media_Productivity_Report_Final.pbix
 ├── README.md
 └── LICENSE
----
+
 
 ## 📈 Dashboard Visuals
 
