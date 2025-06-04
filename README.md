@@ -134,6 +134,7 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 ├── README.md
 └── LICENSE
 
+---
 
 ## 📈 Dashboard Visuals
 
