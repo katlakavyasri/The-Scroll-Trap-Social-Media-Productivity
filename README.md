@@ -140,24 +140,18 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 ## 📈 Dashboard Visuals
 
 ### 🎯 Executive Dashboard
-![Dashboard Overview](images/page1_overview.png)
+![Overview](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/overview.png)
 
 ### 🔎 Key Findings
-![Key Findings](images/page2_key_findings.png)
+![Key Findings](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/Detailed%20Findings.png)
 
 ### 📊 Advanced Visuals
-![AI Visuals](images/page3_advanced_insights.png)
+![AI Visuals](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/Advanced%20Analytics.png)
 
 
 
 ---
 
-## 🔗 Live Demo
-
-- 📹 YouTube walkthrough: *(Add link if available)*
-- 🌐 Power BI Service: *(Add published link if public)*
-
----
 
 ## 📄 License
 
