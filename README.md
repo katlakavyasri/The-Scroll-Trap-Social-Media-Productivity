@@ -127,11 +127,11 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 │   └── social_media_vs_productivity.csv
 │
 ├── images/
-│   ├── overview.png
+│   ├── Overview.png
 │   ├── Detailed Findings.png
 │   └── Advanced Analytics.png
 │
-├── The Scroll Trap.pbix
+├── Social_Media_Productivity_Report_Final.pbix
 ├── README.md
 └── LICENSE
 ```
@@ -141,7 +141,7 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 ## 📈 Dashboard Visuals
 
 ### 🎯 Overview  
-![overview](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/overview.png)
+![overview](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/Overview.png)
 
 ### 🔎 Detailed Findings  
 ![Detailed Findings](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/Detailed%20Findings.png)
