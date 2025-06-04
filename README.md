@@ -1,11 +1,30 @@
 # 📘 The Scroll Trap: Exploring the Interplay Between Social Media, Productivity, and Well-being (Power BI Project)
 
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+---
+
 ## 🚀 Project Overview
+
 This Power BI project dives into a behavioral dataset to examine how daily social media habits affect productivity, stress levels, and digital well-being. Through visual storytelling and data modeling, the goal is to empower individuals and organizations to better understand digital fatigue and foster mindful digital usage.
 
 ---
 
-## 📊 Data Source
+## 📊 Quick Summary
+
+| 📁 Category       | 📌 Details                                          |
+|------------------|-----------------------------------------------------|
+| 📊 Dataset        | 30,000 simulated user entries                       |
+| 🎯 Focus Areas    | Productivity, Screen Time, Stress, Lifestyle        |
+| 📈 Visuals Used   | Decomposition Tree, Key Influencers, Correlation Matrix, DAX KPIs |
+| 🛠 Tools          | Power BI, Power Query, DAX, GitHub                  |
+
+---
+
+## 📂 Data Source
+
 - The dataset is a realistic simulation derived from survey responses of 30,000 users on factors such as screen time, productivity scores, notifications, coffee intake, and stress.
 - *The raw dataset, `social_media_vs_productivity.csv`, is available in the `/data` folder within this repository.*
 
@@ -13,13 +32,13 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|------|---------|
-| Power BI Desktop | Data modeling, DAX measures, interactive dashboards |
-| Power Query | Data transformation, column renaming, filtering |
-| DAX (Data Analysis Expressions) | Custom metrics like Productivity Gap, Stress Categories |
-| Excel (Optional) | Data sanity checks |
-| GitHub | Project versioning and sharing |
+| Tool             | Purpose                                              |
+|------------------|------------------------------------------------------|
+| Power BI Desktop | Data modeling, DAX measures, interactive dashboards  |
+| Power Query      | Data transformation, column renaming, filtering      |
+| DAX              | Custom metrics like Productivity Gap, Stress Categories |
+| Excel (Optional) | Data sanity checks                                   |
+| GitHub           | Project versioning and sharing                       |
 
 ---
 
@@ -65,6 +84,15 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 
 ---
 
+## 👥 Who Can Use This?
+
+- **Students & Professionals**: Reflect on your own digital habits.
+- **HR & Wellness Teams**: Build awareness campaigns.
+- **UX Designers & Developers**: Understand real-world behavior metrics.
+- **Researchers**: Base for extended behavioral studies.
+
+---
+
 ## ⚠️ Limitations
 
 - **Self-Reported Bias**: Users may misestimate stress or productivity.
@@ -95,34 +123,40 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 /The-Scroll-Trap
 │
 ├── data/
-│ └── social_media_vs_productivity.csv
+│   └── social_media_vs_productivity.csv
+│
 ├── images/
-│ ├── page1_overview.png
-│ ├── page2_key_findings.png
-│ └── page3_advanced_insights.png
+│   ├── page1_overview.png
+│   ├── page2_key_findings.png
+│   ├── page3_advanced_insights.png
+│   └── dashboard_demo.gif
+│
 ├── Social_Media_Productivity_Report_Final.pbix
 ├── README.md
 └── LICENSE
 
 ---
 
-## 📈 Dashboard Screenshots
+## 📈 Dashboard Visuals
 
-### Page 1: Executive Dashboard
+### 🎯 Executive Dashboard
 ![Dashboard Overview](images/page1_overview.png)
 
-### Page 2: Key Findings
+### 🔎 Key Findings
 ![Key Findings](images/page2_key_findings.png)
 
-### Page 3: Advanced Visuals
+### 📊 Advanced Visuals
 ![AI Visuals](images/page3_advanced_insights.png)
+
+### 🎥 Dashboard Interaction (GIF Demo)
+![Dashboard Interaction](images/dashboard_demo.gif)
 
 ---
 
 ## 🔗 Live Demo
 
-- 📹 YouTube walkthrough: *(Link if available)*
-- 📊 Power BI service (if hosted): *(Link if public)*
+- 📹 YouTube walkthrough: *(Add link if available)*
+- 🌐 Power BI Service: *(Add published link if public)*
 
 ---
 
@@ -145,6 +179,5 @@ Feel free to use, modify, or share with proper credit.
 
 For collaborations or questions, reach out:
 
-- **Kavya Sri Katla**
-- [LinkedIn](https://www.linkedin.com/in/katlakavyasri)
-- [GitHub Portfolio](https://github.com/katlakavyasri)
+[![Connect on LinkedIn](https://img.shields.io/badge/Kavya%20Sri%20Katla-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/katlakavyasri)  
+[GitHub Portfolio](https://github.com/katlakavyasri)
