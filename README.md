@@ -120,6 +120,8 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 ---
 
 ## 📁 Project Structure
+
+```plaintext
 /The-Scroll-Trap
 │
 ├── data/
