@@ -1,6 +1,7 @@
 # 📘 The Scroll Trap: Exploring the Interplay Between Social Media, Productivity, and Well-being (Power BI Project)
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)](https://powerbi.microsoft.com/)
+[![Tableau](https://img.shields.io/badge/Tableau-Storytelling-blue)](https://www.tableau.com/)
 [![Status](https://img.shields.io/badge/Project-Completed-brightgreen)](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
@@ -13,14 +14,15 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 
 ---
 
-## 📊 Quick Summary
+## 📊 Dataset Summary
 
-| 📁 Category       | 📌 Details                                          |
-|------------------|-----------------------------------------------------|
-| 📊 Dataset        | 30,000 simulated user entries                       |
-| 🎯 Focus Areas    | Productivity, Screen Time, Stress, Lifestyle        |
-| 📈 Visuals Used   | Decomposition Tree, Key Influencers, Correlation Matrix, DAX KPIs |
-| 🛠 Tools          | Power BI, Power Query, DAX, GitHub                  |
+| Metric                     | Description                                        |
+|----------------------------|----------------------------------------------------|
+| 🧠 Users                   | 30,000 simulated survey responses                  |
+| 📱 Variables               | Screen time, stress levels, notifications, sleep   |
+| 🎯 Targets                 | Productivity score (actual vs perceived), wellness |
+| 🧹 Cleaned File            | `cleaned_social_media_productivity_data.csv`       |
+
 
 ---
 
@@ -31,15 +33,14 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools Used
 
-| Tool             | Purpose                                              |
-|------------------|------------------------------------------------------|
-| Power BI Desktop | Data modeling, DAX measures, interactive dashboards  |
-| Power Query      | Data transformation, column renaming, filtering      |
-| DAX              | Custom metrics like Productivity Gap, Stress Categories |
-| Excel (Optional) | Data sanity checks                                   |
-| GitHub           | Project versioning and sharing                       |
+| Tool      | Purpose                            |
+|-----------|------------------------------------|
+| Power BI  | DAX modeling, advanced analytics    |
+| Tableau   | Visual storytelling & interactivity |
+| GitHub    | Version control, documentation      |
+| Excel     | Initial data checks (optional)      |
 
 ---
 
@@ -96,19 +97,20 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 
 ## ⚠️ Limitations
 
-- **Self-Reported Bias**: Users may misestimate stress/productivity
-- **Correlation ≠ Causation**: Observational analysis; experimental validation needed
-- **Static Snapshot**: One-time survey; behaviors may evolve
-- **No Platform Split**: Does not distinguish social media platforms
+- **📏Self-Reported Bias**: Users may misestimate stress/productivity
+- **⚖️Correlation ≠ Causation**: Observational analysis; experimental validation needed
+- **⏱️Static Snapshot**: One-time survey; behaviors may evolve
+- **🌐No Platform Split**: Does not distinguish social media platforms
 
 ---
 
 ## 🔭 Future Work
 
-- **Longitudinal Tracking**: Study users over time to observe changes
-- **Behavioral Clustering**: Use ML to identify patterns like *Focus Fanatics*, *Doomscrollers*
-- **Qualitative Interviews**: Explore deeper reasons behind behaviors
-- **Wider Demographics**: Include mental health, income, and family background
+- **🧬 Behavioral Clustering**: (e.g., Focus Fanatics vs Doomscrollers)
+- **🧪Longitudinal Tracking**: Study users over time to observe changes
+- **📉Behavioral Clustering**: Use ML to identify patterns like *Focus Fanatics*, *Doomscrollers*
+- **🎙️Qualitative Interviews**: Explore deeper reasons behind behaviors
+- **🧠Wider Demographics**: Include mental health, income, and family background
 
 ---
 
@@ -116,7 +118,8 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 
 1. Download this GitHub repository or `.zip` it
 2. Open `Social_Media_Productivity_Report_Final.pbix` in Power BI Desktop
-3. Interact with dashboards using slicers, filters, and drilldowns
+3. open 'Scroll Trap.twb' in Tableau
+4. Interact with dashboards using slicers, filters, and drilldowns
 
 ---
 
@@ -126,6 +129,7 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 │
 ├── data/
 │   └── social_media_vs_productivity.csv
+    └── cleaned_social_media_productivity_data
 │
 ├── images/
 │   ├── Overview.png
@@ -133,22 +137,30 @@ This Power BI project dives into a behavioral dataset to examine how daily socia
 │   └── Advanced Analytics.png
 │
 ├── Social_Media_Productivity_Report_Final.pbix
+├── Scroll Trap.pbix
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-## 📈 Dashboard Visuals
+## 📈 Visualizations
 
-### 🎯 Overview  
-![overview](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/Overview.png)
+### 🔸 Power BI (Advanced)
+- ✅ Decomposition Tree
+- ✅ Key Influencers
+- ✅ DAX-driven Productivity Gap
+- ✅ Stress Category Distribution
 
-### 🔎 Detailed Findings  
-![Detailed Findings](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/Detailed%20Findings.png)
+📁 Download Tableau File: [`Scroll Trap.pbix`](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/Social_Media_Productivity_Report_Final.pbix)
 
-### 📊 Advanced Analytics  
-![Advanced Analytics](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/images/Advanced%20Analytics.png)
+
+### 🔹 Tableau (Storytelling)
+- 🟢 **Scatter Plot**: Social Media Time vs Productivity
+- 🟢 **Bar Chart**: Productivity Gap by Platform
+- 🟢 **Box Plot**: Social Media Time by Age Group
+
+📁 Download Tableau File: [`Scroll Trap.twb`](https://github.com/katlakavyasri/The-Scroll-Trap-Social-Media-Productivity/blob/main/Scroll%20Trap.twb)
 
 ---
 
