@@ -1,0 +1,2182 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0520.1026                               -->
+<workbook original-version='18.1' source-build='2025.1.2 (20251.25.0520.1026)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cleaned_social_media_productivity_data' inline='true' name='federated.0uixtou0lzcdiy192z33v16ivsvv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_social_media_productivity_data' name='textscan.1wx6o8a0q65e3o11g1fpz1qg3mc3'>
+            <connection class='textscan' directory='C:/Users/kavya/OneDrive/portfolio projects/project 1' filename='cleaned_social_media_productivity_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1wx6o8a0q65e3o11g1fpz1qg3mc3' name='cleaned_social_media_productivity_data.csv' table='[cleaned_social_media_productivity_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='gender' ordinal='1' />
+            <column datatype='string' name='job_type' ordinal='2' />
+            <column datatype='real' name='daily_social_media_time' ordinal='3' />
+            <column datatype='string' name='social_platform_preference' ordinal='4' />
+            <column datatype='integer' name='number_of_notifications' ordinal='5' />
+            <column datatype='real' name='work_hours_per_day' ordinal='6' />
+            <column datatype='real' name='perceived_productivity_score' ordinal='7' />
+            <column datatype='real' name='actual_productivity_score' ordinal='8' />
+            <column datatype='integer' name='stress_level' ordinal='9' />
+            <column datatype='real' name='sleep_hours' ordinal='10' />
+            <column datatype='real' name='screen_time_before_sleep' ordinal='11' />
+            <column datatype='integer' name='breaks_during_work' ordinal='12' />
+            <column datatype='boolean' name='uses_focus_apps' ordinal='13' />
+            <column datatype='boolean' name='has_digital_wellbeing_enabled' ordinal='14' />
+            <column datatype='integer' name='coffee_consumption_per_day' ordinal='15' />
+            <column datatype='integer' name='days_feeling_burnout_per_month' ordinal='16' />
+            <column datatype='integer' name='weekly_offline_hours' ordinal='17' />
+            <column datatype='real' name='job_satisfaction_score' ordinal='18' />
+            <column datatype='real' name='Productivity Gap' ordinal='19' />
+            <column datatype='string' name='Age Group' ordinal='20' />
+            <column datatype='integer' name='number_of_notifications (bins)' ordinal='21' />
+            <column datatype='integer' name='Index' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_type]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>job_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_social_media_time</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[daily_social_media_time]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>daily_social_media_time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>social_platform_preference</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[social_platform_preference]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>social_platform_preference</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_notifications</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_notifications]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>number_of_notifications</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work_hours_per_day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[work_hours_per_day]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>work_hours_per_day</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perceived_productivity_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[perceived_productivity_score]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>perceived_productivity_score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actual_productivity_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[actual_productivity_score]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>actual_productivity_score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stress_level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stress_level]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>stress_level</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sleep_hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sleep_hours]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>sleep_hours</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>screen_time_before_sleep</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[screen_time_before_sleep]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>screen_time_before_sleep</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>breaks_during_work</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[breaks_during_work]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>breaks_during_work</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uses_focus_apps</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[uses_focus_apps]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>uses_focus_apps</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>has_digital_wellbeing_enabled</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[has_digital_wellbeing_enabled]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>has_digital_wellbeing_enabled</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coffee_consumption_per_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[coffee_consumption_per_day]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>coffee_consumption_per_day</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>days_feeling_burnout_per_month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[days_feeling_burnout_per_month]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>days_feeling_burnout_per_month</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekly_offline_hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weekly_offline_hours]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>weekly_offline_hours</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_satisfaction_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[job_satisfaction_score]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>job_satisfaction_score</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Productivity Gap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Productivity Gap]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>Productivity Gap</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age Group]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>Age Group</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_notifications (bins)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_notifications (bins)]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>number_of_notifications (bins)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Index]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>Index</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='cleaned_social_media_productivity_data.csv' datatype='table' name='[__tableau_internal_object_id__].[cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508]' role='measure' type='quantitative' />
+      <column caption='Actual Productivity Score' datatype='real' name='[actual_productivity_score]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Breaks During Work' datatype='integer' name='[breaks_during_work]' role='measure' type='quantitative' />
+      <column caption='Coffee Consumption Per Day' datatype='integer' name='[coffee_consumption_per_day]' role='dimension' type='quantitative' />
+      <column caption='Daily Social Media Time' datatype='real' name='[daily_social_media_time]' role='measure' type='quantitative' />
+      <column caption='Days Feeling Burnout Per Month' datatype='integer' name='[days_feeling_burnout_per_month]' role='dimension' type='quantitative' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Has Digital Wellbeing Enabled' datatype='boolean' name='[has_digital_wellbeing_enabled]' role='dimension' type='nominal' />
+      <column caption='Job Satisfaction Score' datatype='real' name='[job_satisfaction_score]' role='measure' type='quantitative' />
+      <column caption='Job Type' datatype='string' name='[job_type]' role='dimension' type='nominal' />
+      <column caption='Number Of Notifications (Bins)' datatype='integer' name='[number_of_notifications (bins)]' role='measure' type='quantitative' />
+      <column caption='Number Of Notifications' datatype='integer' name='[number_of_notifications]' role='measure' type='quantitative' />
+      <column caption='Perceived Productivity Score' datatype='real' name='[perceived_productivity_score]' role='measure' type='quantitative' />
+      <column caption='Screen Time Before Sleep' datatype='real' name='[screen_time_before_sleep]' role='measure' type='quantitative' />
+      <column caption='Sleep Hours' datatype='real' name='[sleep_hours]' role='measure' type='quantitative' />
+      <column caption='Social Platform Preference' datatype='string' name='[social_platform_preference]' role='dimension' type='nominal' />
+      <column caption='Stress Level' datatype='integer' name='[stress_level]' role='measure' type='quantitative' />
+      <column caption='Uses Focus Apps' datatype='boolean' name='[uses_focus_apps]' role='dimension' type='nominal' />
+      <column caption='Weekly Offline Hours' datatype='integer' name='[weekly_offline_hours]' role='measure' type='quantitative' />
+      <column caption='Work Hours Per Day' datatype='real' name='[work_hours_per_day]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cleaned_social_media_productivity_data.csv' id='cleaned_social_media_productivity_data.csv_52A9B55A1FCF4EC7B64A9CFA1C02A508'>
+            <properties context=''>
+              <relation connection='textscan.1wx6o8a0q65e3o11g1fpz1qg3mc3' name='cleaned_social_media_productivity_data.csv' table='[cleaned_social_media_productivity_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='string' name='gender' ordinal='1' />
+                  <column datatype='string' name='job_type' ordinal='2' />
+                  <column datatype='real' name='daily_social_media_time' ordinal='3' />
+                  <column datatype='string' name='social_platform_preference' ordinal='4' />
+                  <column datatype='integer' name='number_of_notifications' ordinal='5' />
+                  <column datatype='real' name='work_hours_per_day' ordinal='6' />
+                  <column datatype='real' name='perceived_productivity_score' ordinal='7' />
+                  <column datatype='real' name='actual_productivity_score' ordinal='8' />
+                  <column datatype='integer' name='stress_level' ordinal='9' />
+                  <column datatype='real' name='sleep_hours' ordinal='10' />
+                  <column datatype='real' name='screen_time_before_sleep' ordinal='11' />
+                  <column datatype='integer' name='breaks_during_work' ordinal='12' />
+                  <column datatype='boolean' name='uses_focus_apps' ordinal='13' />
+                  <column datatype='boolean' name='has_digital_wellbeing_enabled' ordinal='14' />
+                  <column datatype='integer' name='coffee_consumption_per_day' ordinal='15' />
+                  <column datatype='integer' name='days_feeling_burnout_per_month' ordinal='16' />
+                  <column datatype='integer' name='weekly_offline_hours' ordinal='17' />
+                  <column datatype='real' name='job_satisfaction_score' ordinal='18' />
+                  <column datatype='real' name='Productivity Gap' ordinal='19' />
+                  <column datatype='string' name='Age Group' ordinal='20' />
+                  <column datatype='integer' name='number_of_notifications (bins)' ordinal='21' />
+                  <column datatype='integer' name='Index' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='cleaned_social_media_productivity_data (2)' inline='true' name='federated.11o3w6t0vvfdb614l4l4a10wkqow' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_social_media_productivity_data' name='textscan.1xiqfvy0qxupws1au9r6i1o3jh0n'>
+            <connection class='textscan' directory='C:/Users/kavya/OneDrive/portfolio projects/project 1' filename='cleaned_social_media_productivity_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1xiqfvy0qxupws1au9r6i1o3jh0n' name='cleaned_social_media_productivity_data.csv' table='[cleaned_social_media_productivity_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='gender' ordinal='1' />
+            <column datatype='string' name='job_type' ordinal='2' />
+            <column datatype='real' name='daily_social_media_time' ordinal='3' />
+            <column datatype='string' name='social_platform_preference' ordinal='4' />
+            <column datatype='integer' name='number_of_notifications' ordinal='5' />
+            <column datatype='real' name='work_hours_per_day' ordinal='6' />
+            <column datatype='real' name='perceived_productivity_score' ordinal='7' />
+            <column datatype='real' name='actual_productivity_score' ordinal='8' />
+            <column datatype='integer' name='stress_level' ordinal='9' />
+            <column datatype='real' name='sleep_hours' ordinal='10' />
+            <column datatype='real' name='screen_time_before_sleep' ordinal='11' />
+            <column datatype='integer' name='breaks_during_work' ordinal='12' />
+            <column datatype='boolean' name='uses_focus_apps' ordinal='13' />
+            <column datatype='boolean' name='has_digital_wellbeing_enabled' ordinal='14' />
+            <column datatype='integer' name='coffee_consumption_per_day' ordinal='15' />
+            <column datatype='integer' name='days_feeling_burnout_per_month' ordinal='16' />
+            <column datatype='integer' name='weekly_offline_hours' ordinal='17' />
+            <column datatype='real' name='job_satisfaction_score' ordinal='18' />
+            <column datatype='real' name='Productivity Gap' ordinal='19' />
+            <column datatype='string' name='Age Group' ordinal='20' />
+            <column datatype='integer' name='number_of_notifications (bins)' ordinal='21' />
+            <column datatype='integer' name='Index' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job_type]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>job_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_social_media_time</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[daily_social_media_time]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>daily_social_media_time</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>social_platform_preference</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[social_platform_preference]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>social_platform_preference</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_notifications</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_notifications]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>number_of_notifications</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>work_hours_per_day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[work_hours_per_day]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>work_hours_per_day</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perceived_productivity_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[perceived_productivity_score]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>perceived_productivity_score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actual_productivity_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[actual_productivity_score]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>actual_productivity_score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stress_level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stress_level]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>stress_level</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sleep_hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sleep_hours]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>sleep_hours</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>screen_time_before_sleep</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[screen_time_before_sleep]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>screen_time_before_sleep</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>breaks_during_work</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[breaks_during_work]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>breaks_during_work</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uses_focus_apps</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[uses_focus_apps]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>uses_focus_apps</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>has_digital_wellbeing_enabled</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[has_digital_wellbeing_enabled]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>has_digital_wellbeing_enabled</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coffee_consumption_per_day</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[coffee_consumption_per_day]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>coffee_consumption_per_day</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>days_feeling_burnout_per_month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[days_feeling_burnout_per_month]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>days_feeling_burnout_per_month</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weekly_offline_hours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weekly_offline_hours]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>weekly_offline_hours</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_satisfaction_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[job_satisfaction_score]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>job_satisfaction_score</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Productivity Gap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Productivity Gap]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>Productivity Gap</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age Group]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>Age Group</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_notifications (bins)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_notifications (bins)]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>number_of_notifications (bins)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Index</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Index]</local-name>
+            <parent-name>[cleaned_social_media_productivity_data.csv]</parent-name>
+            <remote-alias>Index</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Index]' role='measure' type='quantitative' />
+      <column caption='cleaned_social_media_productivity_data.csv' datatype='table' name='[__tableau_internal_object_id__].[cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5]' role='measure' type='quantitative' />
+      <column caption='Actual Productivity Score' datatype='real' name='[actual_productivity_score]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Breaks During Work' datatype='integer' name='[breaks_during_work]' role='measure' type='quantitative' />
+      <column caption='Coffee Consumption Per Day' datatype='integer' name='[coffee_consumption_per_day]' role='dimension' type='quantitative' />
+      <column caption='Daily Social Media Time' datatype='real' name='[daily_social_media_time]' role='measure' type='quantitative' />
+      <column caption='Days Feeling Burnout Per Month' datatype='integer' name='[days_feeling_burnout_per_month]' role='dimension' type='quantitative' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Has Digital Wellbeing Enabled' datatype='boolean' name='[has_digital_wellbeing_enabled]' role='dimension' type='nominal' />
+      <column caption='Job Satisfaction Score' datatype='real' name='[job_satisfaction_score]' role='measure' type='quantitative' />
+      <column caption='Job Type' datatype='string' name='[job_type]' role='dimension' type='nominal' />
+      <column caption='Number Of Notifications (Bins)' datatype='integer' name='[number_of_notifications (bins)]' role='measure' type='quantitative' />
+      <column caption='Number Of Notifications' datatype='integer' name='[number_of_notifications]' role='measure' type='quantitative' />
+      <column caption='Perceived Productivity Score' datatype='real' name='[perceived_productivity_score]' role='measure' type='quantitative' />
+      <column caption='Screen Time Before Sleep' datatype='real' name='[screen_time_before_sleep]' role='measure' type='quantitative' />
+      <column caption='Sleep Hours' datatype='real' name='[sleep_hours]' role='measure' type='quantitative' />
+      <column caption='Social Platform Preference' datatype='string' name='[social_platform_preference]' role='dimension' type='nominal' />
+      <column caption='Stress Level' datatype='integer' name='[stress_level]' role='measure' type='quantitative' />
+      <column caption='Uses Focus Apps' datatype='boolean' name='[uses_focus_apps]' role='dimension' type='nominal' />
+      <column caption='Weekly Offline Hours' datatype='integer' name='[weekly_offline_hours]' role='measure' type='quantitative' />
+      <column caption='Work Hours Per Day' datatype='real' name='[work_hours_per_day]' role='dimension' type='quantitative' />
+      <column-instance column='[actual_productivity_score]' derivation='Avg' name='[avg:actual_productivity_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[daily_social_media_time]' derivation='Avg' name='[avg:daily_social_media_time:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[social_platform_preference]' derivation='None' name='[none:social_platform_preference:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Index]' derivation='Sum' name='[sum:Index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[actual_productivity_score]' derivation='Sum' name='[sum:actual_productivity_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[daily_social_media_time]' derivation='Sum' name='[sum:daily_social_media_time:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[screen_time_before_sleep]' derivation='Sum' name='[sum:screen_time_before_sleep:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stress_level]' derivation='Sum' name='[sum:stress_level:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:actual_productivity_score:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:actual_productivity_score:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:Index:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:daily_social_media_time:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:stress_level:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:screen_time_before_sleep:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:social_platform_preference:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Facebook&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Twitter&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;TikTok&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Telegram&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Instagram&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cleaned_social_media_productivity_data.csv' id='cleaned_social_media_productivity_data.csv_8186885AA3354FE094C4B2C2B725DFC5'>
+            <properties context=''>
+              <relation connection='textscan.1xiqfvy0qxupws1au9r6i1o3jh0n' name='cleaned_social_media_productivity_data.csv' table='[cleaned_social_media_productivity_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='string' name='gender' ordinal='1' />
+                  <column datatype='string' name='job_type' ordinal='2' />
+                  <column datatype='real' name='daily_social_media_time' ordinal='3' />
+                  <column datatype='string' name='social_platform_preference' ordinal='4' />
+                  <column datatype='integer' name='number_of_notifications' ordinal='5' />
+                  <column datatype='real' name='work_hours_per_day' ordinal='6' />
+                  <column datatype='real' name='perceived_productivity_score' ordinal='7' />
+                  <column datatype='real' name='actual_productivity_score' ordinal='8' />
+                  <column datatype='integer' name='stress_level' ordinal='9' />
+                  <column datatype='real' name='sleep_hours' ordinal='10' />
+                  <column datatype='real' name='screen_time_before_sleep' ordinal='11' />
+                  <column datatype='integer' name='breaks_during_work' ordinal='12' />
+                  <column datatype='boolean' name='uses_focus_apps' ordinal='13' />
+                  <column datatype='boolean' name='has_digital_wellbeing_enabled' ordinal='14' />
+                  <column datatype='integer' name='coffee_consumption_per_day' ordinal='15' />
+                  <column datatype='integer' name='days_feeling_burnout_per_month' ordinal='16' />
+                  <column datatype='integer' name='weekly_offline_hours' ordinal='17' />
+                  <column datatype='real' name='job_satisfaction_score' ordinal='18' />
+                  <column datatype='real' name='Productivity Gap' ordinal='19' />
+                  <column datatype='string' name='Age Group' ordinal='20' />
+                  <column datatype='integer' name='number_of_notifications (bins)' ordinal='21' />
+                  <column datatype='integer' name='Index' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.11o3w6t0vvfdb614l4l4a10wkqow'>
+      <datasources>
+        <datasource caption='cleaned_social_media_productivity_data (2)' name='federated.11o3w6t0vvfdb614l4l4a10wkqow' />
+      </datasources>
+      <datasource-dependencies datasource='federated.11o3w6t0vvfdb614l4l4a10wkqow'>
+        <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+        <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[social_platform_preference]' derivation='None' name='[none:social_platform_preference:nk]' pivot='key' type='nominal' />
+        <column-instance column='[stress_level]' derivation='None' name='[none:stress_level:qk]' pivot='key' type='quantitative' />
+        <column caption='Social Platform Preference' datatype='string' name='[social_platform_preference]' role='dimension' type='nominal' />
+        <column caption='Stress Level' datatype='integer' name='[stress_level]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]'>
+        <groupfilter function='level-members' level='[none:Age Group:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]'>
+        <groupfilter function='level-members' level='[none:social_platform_preference:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='quantitative' column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]' included-values='in-range-or-null'>
+        <min>1</min>
+        <max>10</max>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_F38CF6A33FF449D2BE6D742F744FA4A2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Social Media vs. Productivity Scatter' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Age Group' />
+        <param name='target' value='Social Media vs. Productivity Scatter' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2_5C90B5E218284C63BA82B366A586E732]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Scroll Trap Dashboard' type='sheet' worksheet='Productivity Gap by Platform' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Scroll Trap Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action3_93C0C1E774F34DAD90D0A8B83F3ACE6B]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Scroll Trap Dashboard' type='sheet' worksheet='Social Media Time by Age Group' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Scroll Trap Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action4_39D7353375E845E3A0FBF780835D6F66]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Scroll Trap Dashboard' type='sheet' worksheet='Social Media vs. Productivity Scatter' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Scroll Trap Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Productivity Gap by Platform'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_social_media_productivity_data (2)' name='federated.11o3w6t0vvfdb614l4l4a10wkqow' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11o3w6t0vvfdb614l4l4a10wkqow'>
+            <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Productivity Gap]' role='measure' type='quantitative' />
+            <column-instance column='[Productivity Gap]' derivation='Avg' name='[avg:Productivity Gap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[social_platform_preference]' derivation='None' name='[none:social_platform_preference:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stress_level]' derivation='None' name='[none:stress_level:qk]' pivot='key' type='quantitative' />
+            <column caption='Social Platform Preference' datatype='string' name='[social_platform_preference]' role='dimension' type='nominal' />
+            <column caption='Stress Level' datatype='integer' name='[stress_level]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' direction='ASC' using='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:Productivity Gap:qk]' />
+          <slices>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#dfedeb' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:Productivity Gap:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575' fontsize='8'>Social Platform Preference:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Avg. Productivity Gap:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:Productivity Gap:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]</rows>
+        <cols>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:Productivity Gap:qk]</cols>
+      </table>
+      <simple-id uuid='{2A25F015-5A8A-4880-9B1A-CD55A30EEE73}' />
+    </worksheet>
+    <worksheet name='Social Media Time by Age Group'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_social_media_productivity_data (2)' name='federated.11o3w6t0vvfdb614l4l4a10wkqow' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11o3w6t0vvfdb614l4l4a10wkqow'>
+            <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Index]' role='measure' type='quantitative' />
+            <column-instance column='[daily_social_media_time]' derivation='Avg' name='[avg:daily_social_media_time:qk]' pivot='key' type='quantitative' />
+            <column caption='Daily Social Media Time' datatype='real' name='[daily_social_media_time]' role='measure' type='quantitative' />
+            <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[social_platform_preference]' derivation='None' name='[none:social_platform_preference:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stress_level]' derivation='None' name='[none:stress_level:qk]' pivot='key' type='quantitative' />
+            <column caption='Social Platform Preference' datatype='string' name='[social_platform_preference]' role='dimension' type='nominal' />
+            <column caption='Stress Level' datatype='integer' name='[stress_level]' role='measure' type='quantitative' />
+            <column-instance column='[Index]' derivation='Sum' name='[sum:Index:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f3ebf3' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]' />
+              <lod column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:Index:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]' z-order='1' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575' fontsize='8'>Age Group:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Avg. Daily Social Media Time:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Index:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:Index:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]</rows>
+        <cols>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]</cols>
+      </table>
+      <simple-id uuid='{61A42FFB-730A-45E4-B34D-C23CB3CA1672}' />
+    </worksheet>
+    <worksheet name='Social Media vs. Productivity Scatter'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_social_media_productivity_data (2)' name='federated.11o3w6t0vvfdb614l4l4a10wkqow' />
+          </datasources>
+          <datasource-dependencies datasource='federated.11o3w6t0vvfdb614l4l4a10wkqow'>
+            <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Index]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Productivity Gap]' role='measure' type='quantitative' />
+            <column caption='Actual Productivity Score' datatype='real' name='[actual_productivity_score]' role='measure' type='quantitative' />
+            <column-instance column='[actual_productivity_score]' derivation='Avg' name='[avg:actual_productivity_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[daily_social_media_time]' derivation='Avg' name='[avg:daily_social_media_time:qk]' pivot='key' type='quantitative' />
+            <column caption='Daily Social Media Time' datatype='real' name='[daily_social_media_time]' role='measure' type='quantitative' />
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[social_platform_preference]' derivation='None' name='[none:social_platform_preference:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stress_level]' derivation='None' name='[none:stress_level:qk]' pivot='key' type='quantitative' />
+            <column caption='Number Of Notifications' datatype='integer' name='[number_of_notifications]' role='measure' type='quantitative' />
+            <column caption='Social Platform Preference' datatype='string' name='[social_platform_preference]' role='dimension' type='nominal' />
+            <column caption='Stress Level' datatype='integer' name='[stress_level]' role='measure' type='quantitative' />
+            <column-instance column='[Index]' derivation='Sum' name='[sum:Index:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Productivity Gap]' derivation='Sum' name='[sum:Productivity Gap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[number_of_notifications]' derivation='Sum' name='[sum:number_of_notifications:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[stress_level]' derivation='Sum' name='[sum:stress_level:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:gender:nk]'>
+            <groupfilter function='member' level='[none:gender:nk]' member='&quot;Female&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:gender:nk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]</column>
+            <column>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5eddc' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' />
+              <size column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]' />
+              <lod column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:Index:qk]' />
+              <tooltip column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:number_of_notifications:qk]' />
+              <tooltip column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:stress_level:qk]' />
+              <tooltip column='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:Productivity Gap:qk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575' fontsize='8'>Age Group:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Social Platform Preference:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Avg. Actual Productivity Score:	</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:actual_productivity_score:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Avg. Daily Social Media Time:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Index:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:Index:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Number Of Notifications:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:number_of_notifications:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Productivity Gap:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:Productivity Gap:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575' fontsize='8'>Stress Level:&#9;</run>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.11o3w6t0vvfdb614l4l4a10wkqow].[sum:stress_level:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='0.11994475126266479' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:actual_productivity_score:qk]</rows>
+        <cols>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]</cols>
+      </table>
+      <simple-id uuid='{EEB0F93F-8085-48C0-8DB7-49EB99F25347}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Scroll Trap Dashboard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='cleaned_social_media_productivity_data (2)' name='federated.11o3w6t0vvfdb614l4l4a10wkqow' />
+      </datasources>
+      <datasource-dependencies datasource='federated.11o3w6t0vvfdb614l4l4a10wkqow'>
+        <column datatype='string' name='[Age Group]' role='dimension' type='nominal' />
+        <column-instance column='[daily_social_media_time]' derivation='Avg' name='[avg:daily_social_media_time:qk]' pivot='key' type='quantitative' />
+        <column caption='Daily Social Media Time' datatype='real' name='[daily_social_media_time]' role='measure' type='quantitative' />
+        <column-instance column='[Age Group]' derivation='None' name='[none:Age Group:nk]' pivot='key' type='nominal' />
+        <column-instance column='[social_platform_preference]' derivation='None' name='[none:social_platform_preference:nk]' pivot='key' type='nominal' />
+        <column-instance column='[stress_level]' derivation='None' name='[none:stress_level:qk]' pivot='key' type='quantitative' />
+        <column caption='Social Platform Preference' datatype='string' name='[social_platform_preference]' role='dimension' type='nominal' />
+        <column caption='Stress Level' datatype='integer' name='[stress_level]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='6250' id='14' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91750' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='7250'>
+              <zone h='91750' id='5' type-v2='layout-basic' w='82400' x='800' y='7250'>
+                <zone h='91750' id='3' name='Social Media vs. Productivity Scatter' w='41200' x='42000' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45875' id='11' name='Social Media Time by Age Group' w='41200' x='800' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45875' id='10' name='Productivity Gap by Platform' w='41200' x='800' y='53125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='91750' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='7250'>
+                <zone h='16875' id='8' name='Social Media vs. Productivity Scatter' pane-specification-id='0' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' type-v2='color' w='16000' x='83200' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='21750' id='15' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]' type-v2='filter' values='database' w='16000' x='83200' y='24125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='16' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]' type-v2='filter' values='database' w='16000' x='83200' y='45875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='17' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]' type-v2='filter' values='database' w='16000' x='83200' y='55000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='21750' id='18' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' type-v2='filter' values='database' w='16000' x='83200' y='64125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='6250' id='14' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21750' id='15' mode='checkdropdown' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]' type-v2='filter' values='database' w='16000' x='83200' y='24125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='16' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[avg:daily_social_media_time:qk]' type-v2='filter' values='database' w='16000' x='83200' y='45875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9125' id='17' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]' type-v2='filter' values='database' w='16000' x='83200' y='55000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21750' id='18' mode='checkdropdown' name='Social Media Time by Age Group' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' type-v2='filter' values='database' w='16000' x='83200' y='64125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45875' id='11' is-fixed='true' name='Social Media Time by Age Group' w='41200' x='800' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='91750' id='3' is-fixed='true' name='Social Media vs. Productivity Scatter' w='41200' x='42000' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='16875' id='8' name='Social Media vs. Productivity Scatter' pane-specification-id='0' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' type-v2='color' w='16000' x='83200' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45875' id='10' is-fixed='true' name='Productivity Gap by Platform' w='41200' x='800' y='53125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2571A850-EFA0-4385-97D5-9A724C65B502}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='Social Media vs. Productivity Scatter'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' type='filter' />
+            <card param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card mode='dropdown' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:gender:nk]' show-apply='true' type='filter' />
+            <card mode='radiolist' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]' show-apply='true' type='filter' />
+            <card pane-specification-id='0' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[attr:job_type:nk]</field>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]</field>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:gender:nk]</field>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:job_type:nk]</field>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]</field>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:stress_level:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{57DAA371-715E-411D-8712-637EB7F7A8D3}' />
+    </window>
+    <window class='worksheet' name='Productivity Gap by Platform'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{164138EC-07C2-4BB4-B4E8-EE8D77A08CB2}' />
+    </window>
+    <window class='worksheet' name='Social Media Time by Age Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[:Measure Names]</field>
+            <field>[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:Age Group:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{750478A0-2E0A-4687-9AB8-1873EFB0CB62}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Scroll Trap Dashboard'>
+      <viewpoints>
+        <viewpoint name='Productivity Gap by Platform' />
+        <viewpoint name='Social Media Time by Age Group'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Social Media vs. Productivity Scatter'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.11o3w6t0vvfdb614l4l4a10wkqow].[none:social_platform_preference:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='15' />
+      <device-preview visible='true' />
+      <simple-id uuid='{BB58A858-1AD3-4F3C-AA0D-F36CFC7485F1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='187' name='Productivity Gap by Platform' width='192'>
+      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
+      u3TqGO2ElmurBKANdIQhUEcZqkHLtlWGQELRJABC0SQAQtEkAELR5DqAUDTpAYSiSQCEokkA
+      hKJJAISiSQCEokkAhKLJb4GsjLE4lUNb9pJWYLqB2KNu7GVSTn5CNPsSzqMz2KDxDWHWvBDc
+      av/erPIm6Qf3cjwpl+I79+hk64THsy8wZ5zrE29ErdbWWkpOfs5n+3LoOXkNK0Lr31VBAmBN
+      9OeJ+2cs92a8zluBGtClcOB/PyXO5u1aNxCrryjxK7an+7J47RJcbQwUJGxk25cqlr0WbK6F
+      ziH+7zv4bcQs5v11Ob3UKvPNyTaw1z6CecMaX3fbt7WW8iQOHXMkOPgOaQ2tDBkCWZWSMz+Q
+      F/QiMwNNd9/orAlk5ktB5CX8QkljCxmzOH3cgSnLw3BVq0ClxvWZZUzp9iOns6pK/e0Ztvwd
+      Fk72pZfatMl01ngSFupH1oWLFtbWKuWkRsXTdc5MvGwbb4cEwGrouZKl46kh7g/8UVXu/jyl
+      y+ZKYwVUVy9yqd+QOjf46or3UDcuZV81P3bGuXf9TaWivIzu3R0srK3mtiXt4gf72Ux6SG8C
+      EgArUkKJzhFNj7rP90DTU0dJY7vVkhLuOmrq3V1PrenB3ZLSRj+tIucQ24/aM2miu+W1tTyV
+      QwldmTrLp5G7BtaQAFgVDQ71dsgOOGgevpRD9+71n+zenQb37cbbZMd+zKfRd5mwel4zbg3Z
+      Wm0t59zeo9hMn4lnEw5NJABWRUdpvZ12KaW6hy9V2tAut6SEuqsy3r7A4Q8/JIGp/Nubs/Ds
+      1pzNp3XaWpG+nx/tZzHtEUOfKnIWyGp0p7umGO0teHDXfQvdbxqcG9hxmhbrTpdiHXoevMmw
+      XneLLrXH9+UZxK5PwGHR26wc2Nx63NZqaxEpCSncvJrCu6fqLvwRkUfAb+k6ZvvXPCsBsBpq
+      Bnhp+DEtjxD3moNLY146FzSejGxsh9hvMIOuniSzPIiaG+CVk/lrPoPG9at+nBoVC7NWE9bs
+      jb8126pi9GvrGF1nsaKE9ezhhQavA8gQyIp0HzkR96RviE0x3UO1UpdC7NdJuIeOoLGdKiov
+      Rk0o5fCX35vu3WrUU/DdVxy+PZ5RXubNo/RXUnS/Z3wL3vqx1dr6mKQgxso88uqq9hgbP0jF
+      94HbzT/i6ur5Xby3+Sz3GvrA6klQLKStDXhYDyABEIomQyChaBIAoWgSAKFoEgChaBIAoWgS
+      AKFoEgChaBIAoWgSAKFoEgChaBIAoWgSAKFoEgChaBIAoWgSAKFoEgChaBIAoWgSAKFoEgCh
+      aBIAoWgSAKFoEgChaBIAoWgSAKFoEgChaBIAoWgSAKFoEgChaBIAoWgSAKFoEgChaBIAoWgS
+      AKFoEgChaBIAoWj/D8bH/poV/Ou2AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Scroll Trap Dashboard' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Social Media Time by Age Group' width='192'>
+      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
+      f19CeSASIx6/MeiR6Ugc1KxZVcM3n/7mTd9XArCAQtEYxzuHicTibK0rxZ3pWFZ9gMU07Zkm
+      Fpt70tF1g18evsjh9kEAdjWW8xc71iY82vEPDXtLAETaMgwDbzDC4fZBFAWaG8pxZWhJnXQk
+      AMLS3MVuRZZDC0szbSmEHo8yPTVBIBIn051PgTtrzphI0DfFlDdETn4R2RlLb5JEWINpV4DQ
+      zBCd3f2MT4xy5uOPGPTfeOB/PDDC4WOnGBrp5cjxU/giVt4MQCwm064AWflVbNtaia7H6IlN
+      4AnEKXfN5m24u5vS9VtZX5JD14WjjEz5yC4xcQcUIX4PE1eDxug+f5xzV0bJK19Lc9GNZo4/
+      qlKQNbtiMduZzVQ8Agoo1/alUsGwSSdYmM/EANhZvXE7lfU+Wk8eon20ig0lWbM/MeKErk5g
+      ROJhFFQwuD7yo2gKSlzG0IX5TOsDzIz1MewJYnNkkpNhMOO/MZGxsjKfjtZuQuEZugcnyc91
+      m1UNIf4g064Azqws2s8e4ZQ/QnHVerbXuJnsb8WTuZqaogY2+c/RcugEa5q2UZwlo0BicchE
+      mLAsmQgTlicBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQ
+      liYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYm
+      ARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQliYBEJYmARCWJgEQ
+      liYBEJYmARCWJgEQliYBEJZmN+uN49EAXe3n6R6ewFVUzbZNjTiuxU2foeWDg/gAMnLZuWUr
+      eVkOs6oixO9lWgAiAQ9q3iruW7+Z3lPv0zZWx6aS2S+5MTNKbMV6HrytGsWsCggxD6YFIDO3
+      jLocg1g0wHhQpTz7xkf5ZjwMXe7jvfEOquo30lBVgk2ZGwUDw6yqCXGdYhiGAeCb8LGQ3znD
+      MAhO93PwZCv1m3ZSU+xOOEaPBTl2cD+Fjc3Ul7jBdrVSNgU9pi9cZYS4iZyCHMW8JpB/lKPn
+      emm+935c9rln93g8jqraUO2ZlBXn441EZsMXu3qAAkpcGkfCfKYFYLy3lcGpIMcOfwSqytqm
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Social Media vs. Productivity Scatter' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
